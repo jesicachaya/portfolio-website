@@ -323,17 +323,24 @@ h1 {
   text-align: center;
 }
 
+.skills {
+  display: block;
+}
+
 .skills ul {
   padding-left: 0;
 }
 
 .skills ul .skill {
-  background-color: #b4c7d9;
-  line-height: 2em;
+  background-color: #f5f5dd;
+  line-height: 3em;
+  margin: 5px 0;
+  text-transform: uppercase;
+  font-weight: 300;
 }
 
 .portfolio-piece {
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 #work h3 {
@@ -342,11 +349,13 @@ h1 {
 
 .projects h4 {
   font-size: 1.3em;
-  margin: 20px 0 40px 0;
+  margin: 15px 0 15px 0;
 }
 
 .projects p {
-  font-size: .975em;
+  font-size: 1em;
+  line-height: 1.375em;
+  margin-bottom: 30px;
 }
 
 .projects .project-link{
@@ -355,12 +364,23 @@ h1 {
   padding: 10px 10px 13px 10px;
 }
 
+.portfolio-piece figure img {
+  border: 2px outset #f5f5dd;
+}
+
 
 
 
 /* ABOUT */
 
-
+#about {
+  background: #152a3e;
+  color: #e4cba3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+}
 
 
 
