@@ -13,7 +13,7 @@
 
 html {
   color: #222;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 1.4;
 }
 
@@ -86,6 +86,316 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+/* General Styles */
+body {
+  font-family: 'Sarabun', sans-serif;
+  font-size: 1em;
+  color: #152a3e;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #152a3e;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Alata', sans-serif;
+  font-size:1.875em;
+}
+
+
+h3,
+h4 {
+  font-family: 'Alata', sans-serif;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.125em;
+}
+
+p {
+  font-size: .875em;
+  line-height: 1.285em;
+}
+
+img {
+  width: 100%;
+}
+
+/* figure {
+  margin: 0;
+} */ 
+
+address {
+  font-style: normal;
+}
+
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
+
+/* -------------------- Base Header - Footer Styles -------------------- */
+
+header, 
+footer {
+  display:flex; 
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background: #e4cba3;
+}
+
+
+/* Header styles */
+
+header {
+  padding: 10px 0;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
+}
+
+header .name {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  font-size: 1.125em;
+}
+
+header h2 {
+  margin: 0;
+}
+
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: wrap;
+  width: 70%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  width: 100%;
+  padding-left: 0px;
+}
+
+
+header nav ul li {
+  font-weight: 600;
+  font-size: .975em;
+  text-transform: uppercase;
+}
+
+
+.header-divider {
+  width: 100%;
+  height: 1px;
+  background: #152a3e;
+  margin: 0px 0px 10px 0px;
+}
+
+
+
+/* Footer */
+
+footer {
+}
+
+footer .content-wrapper {
+  width: 55%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
+}
+
+footer .contact, 
+footer .social {
+  /*display: flex;
+  align-items: center;
+  flex-flow: row wrap;*/
+}
+
+footer h3 {
+  display: flex;
+  text-align: center;
+}
+
+footer h4 {
+  margin: 0 0 10px 0;;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+}
+
+footer .social-icons a {
+  font-size: 1.5em;
+}
+
+
+
+footer .funny-footer {
+  margin-top: 50px;
+}
+
+
+
+/* -------------------- Mobile Styles - Homepage -------------------- */
+
+
+main {
+  display: flex; 
+  justify-content: center;
+  flex-flow: wrap;
+  margin: 0;
+  background: #e4cba3;
+}
+
+/* HERO-AREA */
+
+.hero-section {
+  background: #152a3e;
+  min-height: 300px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 100%;
+}
+
+h1 { 
+  margin: 0px 0px;
+  color: #f5f5dd;
+  font-size: 1.5em;
+  line-height: 2em;
+  text-align: center;
+}
+
+/* WORK */
+
+#work .content-wrapper {
+  margin: 0px 0px;
+}
+
+#work {
+  width: 85%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.skills ul {
+  padding-left: 0;
+}
+
+.skills ul .skill {
+  background-color: #b4c7d9;
+  line-height: 2em;
+}
+
+.portfolio-piece {
+  margin-bottom: 60px;
+}
+
+#work h3 {
+  margin: 40px 0px;
+}
+
+.projects h4 {
+  font-size: 1.3em;
+  margin: 20px 0 40px 0;
+}
+
+.projects p {
+  font-size: .975em;
+}
+
+.projects .project-link{
+  background: #ea9ea2;
+  border-radius: 30px;
+  padding: 10px 10px 13px 10px;
+}
+
+
+
+
+/* ABOUT */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ==========================================================================
    Helper classes
@@ -175,9 +485,52 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+
+
+@media only screen and (min-width: 768px) {
+/* ============ Tablet Styles ============*/
+    
+/* General styles */
+
+/* Header */
+
+
+/* Aside */
+
+/* Features */
+
+/* Reviews */
+
+
+/* Footer */
+
+
+
+
 }
+
+
+@media only screen and (min-width: 1200px) {
+/* ==================== Desktop Styles =================*/
+  
+/* General styles */
+
+
+/* Header */
+
+
+/* Hero Area */
+
+/* Aside */
+
+/* Features */
+
+/* Reviews */
+
+/* Footer */
+
+
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),

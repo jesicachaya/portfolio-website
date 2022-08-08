@@ -19,6 +19,10 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
+
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -34,16 +38,16 @@
         <h2>Jesica Chaya</h2>
       </section>
 
+      <div class="header-divider"> </div>
+
       <!-- NAV -->
       <nav>
         <ul> 
           <li><a href="#about">ABOUT</a></li>
           <li><a href="#work">WORK</a></li>
-          <li><a href="#about">CONTACT</a></li>
+          <li><a href="#footer">CONTACT</a></li>
         </ul>
       </nav> <!-- end nav -->
-
-      <div class="header-divider"> </div>
 
     </div>
   </header>
@@ -53,14 +57,12 @@
     <!-- HERO -->
     <section class="hero-section">
       <div class="content-wrapper">
-
-        <h1>CATCHPHRASE</h1>
-
+        <h1>Hey! <br> I'm a front-end web developer. <br>But I usually go by Jes. ;)</h1>
       </div>
     </section> <!-- end hero section -->
 
     <!-- WORK -->
-    <section class="work">
+    <section id="work">
       <div class="content-wrapper">
 
         <!-- SKILLS -->
@@ -86,51 +88,51 @@
         <div class="projects">
           <h3 class="projects-header">Those powers in action</h3>
 
-          <div class="porfolio-piece">
+          <div class="portfolio-piece">
             <figure> 
               <a href="https://0txp90.csb.app/" target="_blank"> <img src="img/sticky-notes.png" alt="Sticky Notes App"/></a>
             </figure>
             <h4>Sticky Notes App</h4>
             <p class="project-description">An interactive sticky note app that allows users to add new sticky notes, edit previously made notes, delete unwanted notes, and search through notes using a text input. Lifecycle methods utilized to make sure user sees previous state of notes upon re-opening/refreshing the link.
             </p>
-            <a href="https://0txp90.csb.app/" target="_blank">Click to see it in action!</a>
+            <a class="project-link" href="https://0txp90.csb.app/" target="_blank">Click to see it in action!</a>
           </div>
 
-          <div class="porfolio-piece">
+          <div class="portfolio-piece">
             <figure> 
               <a href=" https://jesicachaya.github.io/unplugged-retreat/" target="_blank"> <img src="img/unplugged.png" alt="Unplugged Retreat Website Image"/></a>
             </figure>
             <h4>Unplugged</h4>
             <p class="project-description">A responsive 3-page website for a company offering retreats. Coded with flexbox, it adapts to mobile, tablet, and desktop screens. This versatile design has several sections that can be repurposed for different sites.</p>
-            <a href=" https://jesicachaya.github.io/unplugged-retreat/" target="_blank">Click to see it in action!</a>
+            <a class="project-link" href=" https://jesicachaya.github.io/unplugged-retreat/" target="_blank">Click to see it in action!</a>
           </div>
 
-          <div class="porfolio-piece">
+          <div class="portfolio-piece">
             <figure> 
               <a href="https://jesicachaya.github.io/rogue_pickings/" target="_blank"> <img src="img/rogue-pickings.png" alt="Rogue Pickings Website Image"/></a>
             </figure>
             <h4>Rogue Pickings</h4>
             <p class="project-description">A simple home page perfect for a pop-up restaurant or food truck. Originally a static website, I converted it into a responsive design using Flexbox.</p>
-            <a href="https://jesicachaya.github.io/rogue_pickings/" target="_blank">Click to see it in action!</a>
+            <a class="project-link" href="https://jesicachaya.github.io/rogue_pickings/" target="_blank">Click to see it in action!</a>
           </div>
 
-          <div class="porfolio-piece">
+          <div class="portfolio-piece">
             <figure> 
               <a href="https://jesicachaya.github.io/guess-the-word/" target="_blank"> <img src="img/guess-the-word.png" alt="Guess the Word Game Website Image"/></a>
             </figure>
             <h4>Guess the Word Game</h4>
             <p class="project-description">Players guess the word by entering one letter at a time. If the player guesses all the letters correctly before they use up their allotted guesses, they win!</p>
-            <a href="https://jesicachaya.github.io/guess-the-word/" target="_blank">Click to see it in action!</a>
+            <a class="project-link" href="https://jesicachaya.github.io/guess-the-word/" target="_blank">Click to see it in action!</a>
           </div>
 
-          <div class="porfolio-piece">
+          <div class="portfolio-piece">
             <figure> 
               <a href="https://jesicachaya.github.io/github-repo-gallery/" target="_blank"> <img src="img/github-repos.png" alt="GitHub Repo Gallery Website Image"/></a>
             </figure>
             <h4>GitHub Repo Gallery</h4>
             <p class="project-description">Uses GitHub's API to pull data from my GitHub portfolio to create a gallery of repos. Visitors to the site can click on the repos to see more details and a link to the repo.
             </p>
-            <a href="https://jesicachaya.github.io/github-repo-gallery/" target="_blank">Click to see it in action!</a>
+            <a class="project-link" href="https://jesicachaya.github.io/github-repo-gallery/" target="_blank">Click to see it in action!</a>
           </div>
 
         </div> <!-- end projects div -->
@@ -140,7 +142,7 @@
     </section> <!-- end work section -->
 
     <!-- ABOUT -->
-    <section class="about">
+    <section id="about">
       <div class="content-wrapper">
 
         <figure>
@@ -166,7 +168,7 @@
 
 
 <!-- FOOTER -->
-  <footer>
+  <footer id="footer">
     <div class="content-wrapper">
       <h3>Let's connect!</h3>
 
