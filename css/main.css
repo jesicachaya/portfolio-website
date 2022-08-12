@@ -129,11 +129,7 @@ p {
 
 img {
   width: 100%;
-}
-
-/* figure {
-  margin: 0;
-} */ 
+} 
 
 address {
   font-style: normal;
@@ -156,11 +152,10 @@ footer {
   background: #e4cba3;
 }
 
-
 /* Header styles */
 
 header {
-  padding: 10px 0;
+  padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -172,17 +167,17 @@ header .content-wrapper {
 }
 
 header .name {
-  /*width: 60%;
+  width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  font-size: 1.125em;*/
-  display: none;
 }
 
 header h2 {
+  font-size: 1.875em;
   margin: 15px 0px;
+  text-align: center;
 }
 
 header nav {
@@ -190,7 +185,7 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: wrap;
-  width: 75%;
+  width: 85%;
 }
 
 header nav ul {
@@ -201,24 +196,18 @@ header nav ul {
   padding-left: 0px;
 }
 
-
 header nav ul li {
   font-weight: 700;
-  font-size: .775em;
+  font-size: .875em;
   text-transform: uppercase;
   font-family: 'Alata', sans-serif;
 }
 
-
-.header-divider {
+.divider {
   width: 100%;
   height: 1px;
   background: #152a3e;
   margin: 0px 0px 10px 0px;
-}
-
-header .header-divider {
-  display: none;
 }
 
 
@@ -236,12 +225,6 @@ footer .content-wrapper {
   flex-flow: column wrap;
   margin: 0;
 }
-/*
-.social,
-.contact {
-  width: 40%;
-}*/
-
 
 footer .social {
   padding-top: 10px;
@@ -259,16 +242,16 @@ footer h4 {
   text-align: center;
 }
 
-footer .social-icons {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
 footer p {
   margin: 0;
   text-align: center;
   margin: 0px 0px 30px 0px;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 footer .social-icons a {
@@ -285,9 +268,7 @@ footer .copyright p {
 }
 
 
-
 /* -------------------- Mobile Styles - Homepage -------------------- */
-
 
 main {
   display: flex; 
@@ -335,7 +316,7 @@ h1 span {
 /* WORK */
 
 #work .content-wrapper {
-  margin: 0px 0px;
+  margin: 0;
 }
 
 #work {
@@ -345,6 +326,12 @@ h1 span {
   align-items: center;
   flex-flow: row wrap;
   text-align: center;
+}
+
+#work h3 {
+  margin: 80px 0px 15px 0px;
+  text-transform: uppercase;
+  width: 100%;
 }
 
 .skills, .projects {
@@ -364,7 +351,7 @@ h1 span {
   line-height: 2.6em;
   margin: 10px 0;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1em;
   padding: 0px 15px;
   color: #e4cba3;
@@ -387,10 +374,12 @@ h1 span {
   width: 100%;
 }
 
-#work h3 {
-  margin: 40px 0px 15px 0px;
-  text-transform: uppercase;
+.portfolio-piece figure {
   width: 100%;
+}
+
+.portfolio-piece figure img {
+  border: 2px outset #f5f5dd;
 }
 
 .projects h4 {
@@ -405,7 +394,7 @@ h1 span {
 }
 
 .projects .toolbox {
-  line-height: 2em;
+  line-height: 2.2em;
 }
 
 .projects .project-link{
@@ -413,16 +402,6 @@ h1 span {
   border-radius: 30px;
   padding: 10px 10px 13px 10px;
 }
-
-.portfolio-piece figure img {
-  border: 2px outset #f5f5dd;
-}
-
-.portfolio-piece figure {
-  width: 100%;
-}
-
-
 
 
 /* ABOUT */
@@ -472,37 +451,6 @@ h1 span {
   font-weight: 700;
   font-size: 1.25em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -608,10 +556,6 @@ h1 span {
   margin: 100px 0;
 }
 
-h2 {
-  font-size: 2.25em;
-}
-
 h3 {
   font-size: 1.55em;
 }
@@ -624,25 +568,29 @@ h4 {
 
 header {
   justify-content: space-around;
-  padding: 25px 0px;
+  padding: 45px 0px;
 }
 
 header .content-wrapper {
-  width: 100%;
-  justify-content: flex-end;
+  max-width: 80%;
+  justify-content: space-between;
 }
 
-header .header-divider {
+header .name {
+  width: 40%;
+  justify-content: flex-start;
+}
+
+header h2 {
+  font-size: 2em;
+}
+
+header .divider {
   display: none;
 }
 
-/*header .name {
-  width: 30%;
-  font-size: .875em;
-}*/
-
 header nav {
-  width: 45%;
+  width: 46%;
   margin: 10px 0 0 0;
 }
 
@@ -652,7 +600,7 @@ header nav ul {
 
 header nav ul li {
   font-weight: 600;
-  font-size: 1em;
+  font-size: 1.2em;
   text-transform: uppercase;
 }
 
@@ -692,12 +640,8 @@ h1 span {
   max-width: 100%;
 }
 
-.header-divider {
-  width: 90%;
-}
-
-#work h3 {
-
+.divider {
+  width: 97%;
 }
 
 .skills ul {
@@ -710,7 +654,6 @@ h1 span {
 .skills ul .skill {
   line-height: 2.5em;
   margin: 8px 0;
-  font-weight: 500;
   font-size: 1.1em;
   padding: 0px 10px;
   width: 25%;
@@ -779,10 +722,21 @@ footer .social {
   width: 45%;
 }
 
+footer .social {
+  display: flex; 
+  justify-content: center; 
+  flex-flow: row wrap;
+  padding-top: 0px;
+}
+
 footer h3 {
   font-size: 2.125em;
   width: 75%;
   text-align: center;
+}
+
+footer p {
+  font-size: 1.25em;
 }
 
 footer .social-icons {
@@ -796,17 +750,6 @@ footer .social-icons a {
 footer .copyright {
   margin-top: 50px;
   width: 90%;
-}
-
-footer .social {
-  display: flex; 
-  justify-content: center; 
-  flex-flow: row wrap;
-  padding-top: 0px;
-}
-
-footer p {
-  font-size: 1.25em;
 }
 
 footer .copyright p {
@@ -828,8 +771,13 @@ header .content-wrapper {
   max-width: 80%;
 }
 
+header h2 {
+  font-size: 2.775em;
+}
+
 header nav {
-  width: 30%;
+  width: 45%;
+  margin-top: 15px;
 }
 
 header nav ul {
@@ -837,11 +785,16 @@ header nav ul {
 }
 
 header nav ul li {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.3em;
   text-transform: uppercase;
+  padding: 15px 15px;
 }
 
+header nav ul li:hover {
+  background-color: #f8cacd;
+  border-radius: 10px;
+}
 
 /* Hero Area */
 
@@ -863,20 +816,14 @@ h1 span {
 /* WORK */
 
 .skills ul .skill {
-  line-height: 2.9em;
-  font-weight: 400;
-  font-size: 1.3em;
+  line-height: 2.7em;
+  font-size: 1.2em;
 }
 
 #responsive, 
 #visual-studio {
   width: 28%;
 }
-
-.portfolio-piece {
-  width: 30%;
-}
-
 
 .projects {
   display: flex;
@@ -890,14 +837,23 @@ h1 span {
   align-items: flex-start;
 }
 
-.projects .project-link{
-  font-size: 1.1em;
+.portfolio-piece {
+  width: 30%;
 }
 
+.projects p {
+  font-size: 1.2em;
+}
+.projects .project-link{
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.projects .project-link:hover {
+  background: #f8cacd;
+}
 
 /* ABOUT ME */
-
-
 
 #about .content-wrapper {
   justify-content: space-around;
@@ -939,7 +895,7 @@ footer .content-wrapper {
 }
 
 footer h3 {
-font-size: 2em;
+font-size: 2.2em;
 }
 
 footer h4 {
@@ -955,8 +911,6 @@ footer .social-icons a {
   font-size: 2.5em;
   padding: 0px 25px;
 }
-
-
 
 
 
