@@ -756,6 +756,7 @@ footer .copyright p {
   font-size: 1em;
 }
 
+}
 
 @media only screen and (min-width: 1200px) {
 /* ==================== Desktop Styles =================*/
@@ -914,7 +915,7 @@ footer .social-icons a {
   padding: 0px 25px;
 }
 
-
+}
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
@@ -997,4 +998,3 @@ footer .social-icons a {
     page-break-after: avoid;
   }
 }
-
