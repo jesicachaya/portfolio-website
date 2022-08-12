@@ -892,6 +892,7 @@ h1 span {
 
 footer .content-wrapper {
   margin: 40px 0 0 0;
+  max-width: 100%;
 }
 
 footer h3 {
@@ -900,6 +901,7 @@ font-size: 2.2em;
 
 footer h4 {
   font-size: 1.8em;
+  width: 100%;
 }
 
 footer .social-icons {
