@@ -337,33 +337,6 @@ h1 span {
   width: 100%;
 }
 
-.skills {
-  margin-bottom: 80px;
-}
-
-.skills, .projects {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-
-.skills ul {
-  padding: 0;
-  width: 100%;
-  margin: 16px 0 5px 0;
-}
-
-.skills ul .skill {
-  background-color: #152a3e;
-  line-height: 2.6em;
-  margin: 10px 0;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 1em;
-  padding: 0px 15px;
-  color: #e4cba3;
-}
-
 .projects {
   margin-top: 40px;
 }
@@ -373,10 +346,6 @@ h1 span {
   justify-content: center;
   flex-flow: row wrap;
   align-items: center;
-}
-
-h3 .projects-header {
-  
 }
 
 .portfolio-piece {
@@ -415,6 +384,35 @@ h3 .projects-header {
   background: #ea9ea2;
   border-radius: 30px;
   padding: 10px 10px 13px 10px;
+}
+
+.skills {
+  margin-bottom: 80px;
+}
+
+.skills, .projects {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.skills ul {
+  padding: 0;
+  width: 100%;
+  margin: 16px 0 5px 0;
+}
+
+.skills ul .skill {
+  /*background-color: #152a3e;*/
+  line-height: 2.6em;
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1em;
+  padding: 0px 15px;
+  color: #152a3e;
+  border: 2px dotted #152a3e;
+  border-radius: 5px;
 }
 
 
@@ -658,26 +656,6 @@ h1 span {
   width: 97%;
 }
 
-.skills ul {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  width: 100%;
-}
-
-.skills ul .skill {
-  line-height: 2.5em;
-  margin: 8px 0;
-  font-size: 1.1em;
-  padding: 0px 10px;
-  width: 25%;
-}
-
-#responsive, 
-#visual-studio {
-  width: 41%;
-}
-
 .portfolio-piece {
   width: 45%;
   align-items: center;
@@ -697,6 +675,27 @@ h1 span {
 
 .projects .project-link{
   font-size: 1.1em;
+}
+
+.skills ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.skills ul .skill {
+  line-height: 2.5em;
+  margin: 8px 0;
+  font-size: 1.1em;
+  padding: 0px 10px;
+  width: 25%;
+  border: 2px dashed #152a3e;
+}
+
+#responsive, 
+#visual-studio {
+  width: 40%;
 }
 
 
@@ -831,16 +830,6 @@ h1 span {
 
 /* WORK */
 
-.skills ul .skill {
-  line-height: 2.7em;
-  font-size: 1.2em;
-}
-
-#responsive, 
-#visual-studio {
-  width: 28%;
-}
-
 .projects {
   display: flex;
   flex-flow: row wrap;
@@ -868,6 +857,23 @@ h1 span {
 .projects .project-link:hover {
   background: #f8cacd;
 }
+
+
+.skills ul .skill {
+  line-height: 2.7em;
+  font-size: 1.2em;
+  font-weight: 600;
+  width: 19%;
+}
+
+#responsive {
+  width: 27%
+}
+
+#visual-studio {
+  width: 19%;
+}
+
 
 /* ABOUT ME */
 
