@@ -156,7 +156,7 @@ footer {
 /* Header styles */
 
 header {
-  padding: 15px 0;
+  padding: 20px 0;
 }
 
 header .content-wrapper {
@@ -332,9 +332,13 @@ h1 span {
 }
 
 #work h3 {
-  margin: 80px 0px 15px 0px;
+  margin: 40px 0px 15px 0px;
   text-transform: uppercase;
   width: 100%;
+}
+
+.skills {
+  margin-bottom: 80px;
 }
 
 .skills, .projects {
@@ -360,12 +364,19 @@ h1 span {
   color: #e4cba3;
 }
 
+.projects {
+  margin-top: 40px;
+}
+
 .projects .portfolio-wrapper {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
   align-items: center;
-  margin-bottom: 20px;
+}
+
+h3 .projects-header {
+  
 }
 
 .portfolio-piece {
